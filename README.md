@@ -1,5 +1,7 @@
-# cotation_cryptomonnaie
+# Template Flask with tests
 
-Nous allons construire une API de microservice basée sur Python en utilisant le microframework Flask. Nous allons créer une API qui renvoie des informations sur les cotations boursières et exploiter le système de modèles de Flask pour créer un site Web Bootstrap 4 simple pour créer un graphique historique des cours des actions.
+Template avec tests tox + github actions pour déployer une app flask.
+tests : mypy, flake8
+github tests : ubuntu 20.04, windows-latest et python 3.11
 
 [![Tests CI](https://github.com/PhilippeDataScienc/cotation_cryptomonnaie/actions/workflows/tests.yml/badge.svg)](https://github.com/PhilippeDataScienc/cotation_cryptomonnaie/actions/workflows/tests.yml)
